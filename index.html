@@ -21,15 +21,15 @@
         <div class="login-box">
             <div class="acc-level">
                 <label for="member" id="mb">
-                    <input type="checkbox" name="member" id="member">
+                    <input type="checkbox" name="ck" id="member" onclick="ckChange(this)">
                     Membro
                 </label>
-                <label for="socio">
-                    <input type="checkbox" name="socio" id="socio">
+                <label for="socio" id="sc">
+                    <input type="checkbox" name="ck" id="socio" onclick="ckChange(this)">
                     Sócio
                 </label>
                 <label for="diretor" id="dir">
-                    <input type="checkbox" name="diretor" id="diretor">
+                    <input type="checkbox" name="ck" id="diretor" onclick="ckChange(this)">
                     Diretor
                 </label>       
             </div>
@@ -47,6 +47,8 @@
             </form>
         </div>
     </div>
+
+    <script src="./main.js"></script>
     
 </body>
 </html>

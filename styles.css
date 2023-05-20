@@ -55,6 +55,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 body {
@@ -115,14 +116,22 @@ label {
     align-items: center;
     padding: 15px;
     cursor: pointer;
+    background-color: rgb(143, 11,11);
+    color: white;
+    border-radius: 2px;
+    transition: all 0.5s ease;
 }
 
 #mb {
-    padding-right: 100px;
+    margin-right: 20%;
 }
 
 #dir {
-    padding-left: 100px;
+    margin-left: 20%;
+}
+
+#mb:hover, #sc:hover, #dir:hover {
+    opacity: 0.6;
 }
 
 label input[type="checkbox"] {
@@ -140,7 +149,7 @@ input[type="text"].form-control, [type="password"].form-control {
     border: 2px solid #ccc;
     padding: 16px;
     border-radius: 2px;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
 }
 
 #button {
@@ -159,11 +168,11 @@ button {
     border-radius: 2px;
     font-size: 16px;
     text-transform: uppercase;
+    transition: all 0.5s ease;
 }
 
 button:hover{
     opacity: 0.6;
-    transition: 0.5s;
 }
 
 #sng {
